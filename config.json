@@ -7,9 +7,10 @@
         "quality": 4,
         "keep_cover": false,
         "cover_size": 4,
-        "download_dir": "",
+        "download_dir": "./downloads/",
         "embed_cover": true,
-        "filename_template": "{tracknumber}. {title}",
+        "track_format": "{tracknumber}. {title}",
+        "album_format": "{albumartist} - {album}",
         "tags":{
             "album": true,
             "albumartist": true,

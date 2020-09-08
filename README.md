@@ -25,7 +25,8 @@ keep_cover  | If true, the album's cover will be kept and renamed to from "cover
 cover_size  | - Size cover to request from API. 1 = 50x50, 2 = 230x230, 3 = 600x600. 4 = max. If no album cover is returned, it won't be written to the album's tracks.
 download_dir  | - Directory to download to. Tracks won't be downloaded to a temp directory beforehand. Default = Qo-DL Reborn downloads.
 embed_cover  | - If true, album covers will be written to tracks.
-filename_template | - You may use any of tags under the "tags" section in your config file (make sure you wrap them in curly brackets). Can be combined with plain text.
+track_format | - You may use any of tags under the "tags" section in your config file (make sure you wrap them in curly brackets). Can be combined with plain text.
+album_format | - The same tags can be used as track_format but instead it creates a folder with these tags
 <all tags under "tags" section> | If true, the corresponding tag will be written to tracks. If the API doesn't return metadata for a specific tag, it won't be written to.
 comment | Write custom comment to comment tag in tracks.
 
